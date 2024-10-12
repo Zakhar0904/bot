@@ -42,7 +42,7 @@ async def on_message(message):
          await message.channel.send('enter the second number')
     else:
          await message.channel.send( yandex.gpt(message.content))
-
+#hello
 
 
 def gen_pass(pass_length):
